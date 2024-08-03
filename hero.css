@@ -177,10 +177,6 @@ h1 {
   visibility: hidden;
 }
 
-.deactivate-scroll {
-  overflow-y: hidden;
-}
-
 .nav-elements-in_box {
   color: var(--Grayish-blue);
   font-family: Barlow;
