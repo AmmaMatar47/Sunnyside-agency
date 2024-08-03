@@ -1,0 +1,135 @@
+@media (width <= 910px) {
+  .main-text {
+    font-size: 1.5em;
+    max-width: 75%;
+  }
+
+  h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    max-width: 75%;
+  }
+
+  .photography-section {
+    background-image: url(images/mobile/image-photography.jpg);
+    color: var(--Dark-blue-photography-text);
+    height: 70vw;
+  }
+
+  .graphic-section {
+    background-image: url(images/mobile/image-graphic-design.jpg);
+    color: var(--Dark-desaturated-cyan-graphic-design-text);
+    height: 70vw;
+  }
+}
+
+@media (width <= 768px) {
+  header {
+    background-image: url(images/mobile/image-header.jpg);
+  }
+
+  nav {
+    padding: 32px 20px 0 36px;
+  }
+
+  .nav-elements {
+    display: none;
+  }
+
+  .nav-box {
+    display: flex;
+  }
+
+  .hamburger-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .main-pictures {
+    display: none;
+  }
+  .mobile-main-pictures {
+    display: block;
+    max-width: 100%;
+  }
+
+  .main-text-container {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 20rem;
+  }
+
+  h2 {
+    font-size: 3.5em;
+    margin-bottom: 1.2rem;
+  }
+
+  .main-text {
+    font-size: 1.8em;
+    max-width: 79%;
+  }
+
+  .learn-more-links {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -4em;
+    font-size: 0.9rem;
+  }
+
+  .main-section-container {
+    flex-wrap: wrap;
+  }
+
+  .main-flex-container {
+    flex-wrap: wrap;
+  }
+
+  .photography-section {
+    width: 100%;
+    height: 30rem;
+    padding: 0 0 50px;
+  }
+
+  .graphic-section {
+    width: 100%;
+    height: 30rem;
+    padding: 0 0 50px;
+  }
+
+  .last-two-texts {
+    padding: 0 2.4rem;
+  }
+
+  h1 {
+    top: 36%;
+    font-size: 2.5em;
+  }
+  .arrow-right,
+  .arrow-left {
+    scale: 0.75;
+  }
+
+  .arrow-down-icon {
+    top: 67%;
+  }
+
+  .footer-imges-desktop {
+    display: none;
+  }
+
+  .footer-imges-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .footer-images {
+    width: 100%;
+  }
+
+  .testimonials-header {
+    letter-spacing: 4px;
+    font-size: 20px;
+  }
+}
