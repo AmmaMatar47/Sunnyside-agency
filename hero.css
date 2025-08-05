@@ -54,7 +54,7 @@ nav {
 }
 
 .nav-box::before {
-  content: '';
+  content: "";
   width: 0;
   height: 0;
   position: absolute;
@@ -161,6 +161,25 @@ h1 {
   left: 50%;
   top: 52%;
   transform: translate(-50%, -50%);
+  animation: bounce 1.8s ease 1 2s;
+}
+
+@keyframes bounce {
+  0% {
+    translate: 0;
+  }
+  25% {
+    translate: 0 40px;
+  }
+  50% {
+    translate: 0;
+  }
+  75% {
+    translate: 0 40px;
+  }
+  100% {
+    translate: 0;
+  }
 }
 
 .nav-box {
